@@ -1,0 +1,61 @@
+
+/*Header CSS*/
+.stdu{
+    background-color: brown;
+    color: silver;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+ 
+.sans-pro{
+    font-family: sans-serif !important;
+}
+
+.times{
+/*    font-family: 'Times New Roman', Times, serif;
+  */  color: brown;
+    font-size: 35px;
+    font-weight: bold;
+}
+nav{
+    background-color: #333;
+    padding: 5px;
+    margin-right: 3px;
+}
+nav ul li a{
+font-family: sans-serif;
+color: #fff;
+font-weight: bold;
+}
+
+/*table css*/
+#carousel-row{ 
+    padding: 5px 0.5in;
+}
+
+table tr {
+    border-bottom:solid 2px brown;
+}
+
+hr{
+    
+    border-bottom:solid 3px #333;
+}
+
+table tr th{
+    font-size: 30PX;
+    color: #333; 
+    font-weight: 100;  
+}
+
+table tr td a{
+    font-size: 20PX;
+    color: brown;
+    padding-bottom: 2px;
+}
+/*footer Css*/
+.footer-bg{
+background-color: brown;
+color:#000;
+}
