@@ -4,8 +4,10 @@
     background-color: brown;
     color: silver;
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-   
+    font-family: 'Times New Roman', Times, serif;   
+}
+.stdu li{
+    list-style: none;
 }
  
 .sans-pro{
@@ -13,8 +15,8 @@
 }
 
 .times{
-/*    font-family: 'Times New Roman', Times, serif;
-  */  color: brown;
+/*    font-family: 'Times New Roman', Times, serif; */
+    color: brown;   
     font-size: 35px;
     font-weight: bold;
 }
@@ -24,23 +26,32 @@ nav{
     margin-right: 3px;
 }
 nav ul li a{
-font-family: sans-serif;
-color: #fff;
-font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: medium;
 }
-
+.padd-tb{
+    padding:10px 0px;
+}
 /*table css*/
 #carousel-row{ 
-    padding: 5px 0.5in;
+    padding: 5px 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
-table tr {
-    border-bottom:solid 2px brown;
+#carousel-row table{ 
+    width: inherit;
+    height: inherit;
+}
+table tr.selected {
+    border-bottom:solid 1px brown;
 }
 
 hr{
-    
-    border-bottom:solid 3px #333;
+    padding-top: 0px;
+    border-bottom:solid 1px #333;
 }
 
 table tr th{
@@ -53,9 +64,78 @@ table tr td a{
     font-size: 20PX;
     color: brown;
     padding-bottom: 2px;
+    text-decoration: none;
+    font-weight: normal;
 }
+
+table tr td a:hover{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.rem-3{
+    font-size: 3rem;
+    color:rgb(102, 97, 97);
+}
+#thumbnail{
+    width: inherit;
+    height: inherit;
+}
+
+table tr .pad-bottom{
+padding-top: 20px;
+padding-bottom: 30px;
+
+}
+
+#thumbnail img{
+    width: 110px;
+    height: 110px;
+}
+
+table td .time{
+font-weight: bold;
+color:rgb(85, 79, 79);
+text-transform: uppercase;
+}
+ table td .remains{
+     font-weight: 600;
+     color:rgb(85, 79, 79);
+     text-transform: capitalize;
+ }
+table td .highlight-red{
+    color:brown;
+    font-weight: bold;
+}
+#time .time{
+    align-items: center;
+    float: right;
+    
+}
+#highlight-col-1 tr td #author{
+    width: 90%;
+    margin-left: 10px;
+    align-content: center;
+}
+.content-table {
+    background-color:#EAE9E4;
+}
+.content-info{
+    font-weight: 100;
+    font-size: 20px;
+    text-align: left;
+    padding: 20PX 10PX;
+    font-family: sans-serif;
+ }
+.img-border{
+     border: 5px solid rgb(224, 202, 173)
+ }
+ .padd-tb-5{
+    padding-top:30px;
+    padding-bottom: 10px;
+ }
 /*footer Css*/
 .footer-bg{
-background-color: brown;
-color:#000;
+    background-color: brown;
+    color:#000;
 }
