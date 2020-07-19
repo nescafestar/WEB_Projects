@@ -1,7 +1,7 @@
 
 /*Header CSS*/
 .stdu{
-    background-color: brown;
+    background-color: #8c1515;
     color: silver;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;   
@@ -16,7 +16,7 @@
 
 .times{
 /*    font-family: 'Times New Roman', Times, serif; */
-    color: brown;   
+    color: #8c1515;   
     font-size: 35px;
     font-weight: bold;
 }
@@ -46,7 +46,7 @@ nav ul li a{
     height: inherit;
 }
 table tr.selected {
-    border-bottom:solid 1px brown;
+    border-bottom:solid 1px #8c1515;
 }
 
 hr{
@@ -62,7 +62,7 @@ table tr th{
 
 table tr td a{
     font-size: 20PX;
-    color: brown;
+    color: #8c1515;
     padding-bottom: 2px;
     text-decoration: none;
     font-weight: normal;
@@ -104,7 +104,7 @@ text-transform: uppercase;
      text-transform: capitalize;
  }
 table td .highlight-red{
-    color:brown;
+    color:#8c1515;
     font-weight: bold;
 }
 #time .time{
@@ -136,6 +136,22 @@ table td .highlight-red{
  }
 /*footer Css*/
 .footer-bg{
-    background-color: brown;
-    color:#000;
+    
+    background-color: #8c1515;
+    color:#fff;
+}
+
+footer .logo{
+    padding-top: 20px;
+
+}
+footer ul li, #lower-logo,a{
+    padding-top: 5px;
+    padding-left: 10px;
+    align-items: flex-start;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    font-size: medium;
+    color: white;
 }
