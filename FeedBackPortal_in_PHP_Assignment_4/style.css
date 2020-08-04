@@ -1,0 +1,123 @@
+
+body{
+    background-color: #ebecf0;
+}
+
+body, p, i, input, select, textarea, button{
+    font-family: 'Montserrat',sans-serif,monospace;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+}
+div,p{
+    color: #babecc;
+    text-shadow: 1px 1px 1px #fff !important;
+}
+form{
+    padding: 16px;
+    width: 328px;
+    margin: 0 auto;
+
+}
+.segment{
+    padding: 32px 0px;
+    text-align: center;
+}
+tr{
+    align-items: center;
+}
+button, input{
+    border: 0px;
+    outline: 0px;
+    font-size: 16px;
+    border-radius: 320px;
+    padding: 16px;
+    background-color: #ebecf0;
+    text-shadow: 1px 1px 0 #fff;
+}
+label{
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+}
+input{
+    margin-left: 8px;
+    box-shadow: inset 2px 2px 5px #babecc,inset -5px -5px 10px #fff;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearence:none;
+}
+
+input :focus{
+    box-shadow: inset 1px 1px 2px #babecc,inset -1px -1px 2px #fff;
+}
+input :hover{
+    box-shadow:-2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+
+input :active{
+    box-shadow:inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff ;
+}
+button{
+    color: #61677c;
+    font-weight: bold;
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #a9acb8;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+}
+button :focus{
+    box-shadow:inset 1px 1px 2px #babecc, -1px -1px 2px #fff;
+}
+button :hover{
+    box-shadow:-2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+button :active{
+    box-shadow:inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff ;
+}
+ .icon{
+    margin-right: 8px;
+}
+ .unit{
+    border-radius: 8px;
+    line-height: 0;
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 8px;
+    font-size: 19.2;
+}
+.unit .icon{
+    margin-right:0;
+}
+.red-shadow{
+    margin-bottom: 20px;    
+    color:#ae1100;
+}
+
+.login-big-blue,.signup-big-blue{
+    margin-bottom: 20px;    
+    display: block;
+    width: 100%;
+    color:#2717bb;
+}
+.login-sm-red i,.signup-sm-red i{    
+    color:#ae1100;
+}
+
+.unit-long{
+    border-radius: 8px;
+    line-height: 0;
+    width: 100px;
+    height: 48px;
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 0 8px;
+    font-size: 19.2;
+}
+
+a{
+    color: #ae1100;
+}

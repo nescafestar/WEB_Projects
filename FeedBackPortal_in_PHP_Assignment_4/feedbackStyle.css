@@ -1,0 +1,125 @@
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+table,th,td,tr{
+
+  border: 0.5px solid black;
+  border-collapse:collapse;
+}
+th,td{
+
+  padding: 10px;
+}
+
+th,td{
+
+  text-align: center;
+  
+}
+table{
+  width: 55%;
+  border-spacing: 10px;
+  padding:2px;
+}
+.td2{
+  width: 80%;
+}
+
+.sd{
+  background-color: red;
+}
+.d{
+  background-color: orange;
+}
+.a{
+  background-color: #99cc00;
+}
+.sa{
+  background-color: rgb(0, 255, 0);
+
+}
+
+.blank_row
+{
+    height: 10px !important; 
+    background-color: #FFFFFF;
+    font-size: 80%;
+}
+.op{
+
+  background-color: #E0E0E0;
+}
+/*
+td:hover
+{
+  background-color:#ddd;;cursor: pointer
+}*/
+th:hover
+{
+  
+  cursor: pointer
+}
+.q1:hover{
+
+  background-color: red;
+
+}
+.q2:hover
+{
+  background-color: orange;
+}
+.q3:hover{
+  background-color: #99CC00;
+
+}
+.q4:hover{
+
+  background-color: #00FF00;
+}
+
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+  border: none;
+  background: transparent;
+  text-overflow: initial;
+  
+}
+
+ body {
+	 padding: 10px;
+	 font-size: 16px;
+	 font-family: 'Space Mono', sans-serif;
+	 text-align: center;
+	 background-color: #dee3f1;
+	 color: #002868;
+}
+ 
+.buttonsuccess 
+{
+  background-color: #008CBA;
+  
+  width: 200px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #1c89ff;
+  border: solid 1px transparent;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  
+}
+.buttonsuccess:hover {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(0, 0, 0);
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
+}
+
